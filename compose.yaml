@@ -1,0 +1,64 @@
+services:
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: wiki
+      POSTGRES_PASSWORD: wikijsrocks
+      POSTGRES_USER: wikijs
+    logging:
+      driver: none
+    restart: unless-stopped
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  wiki:
+    image: ghcr.io/requarks/wiki:2
+    depends_on:
+      - db
+      - ldap
+    init: true
+    environment:
+      DB_TYPE: postgres
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: wikijs
+      DB_PASS: wikijsrocks
+      DB_NAME: wiki
+    restart: unless-stopped
+    ports:
+      - "80:3000"
+
+  ldap:
+    image: osixia/openldap:1.5.0
+    command: --copy-service
+    hostname: ldap
+    environment:
+      LDAP_ORGANISATION: "Prefeitura Teste"
+      LDAP_DOMAIN: "pmbc.local"
+      LDAP_ADMIN_PASSWORD: "adminldap"
+      LDAP_TLS: "true"
+    volumes:
+      - ldap-data:/var/lib/ldap
+      - ldap-config:/etc/ldap/slapd.d
+      - ./ldap/bootstrap.ldif:/container/service/slapd/assets/config/bootstrap/ldif/custom/50-bootstrap.ldif:ro
+    ports:
+      - "127.0.0.1:389:389"
+      - "127.0.0.1:636:636"
+    restart: unless-stopped
+
+  phpldapadmin:
+    image: osixia/phpldapadmin:0.9.0
+    environment:
+      PHPLDAPADMIN_LDAP_HOSTS: ldap
+      PHPLDAPADMIN_HTTPS: "false"
+    depends_on:
+      - ldap
+    ports:
+      - "127.0.0.1:8080:80"
+    restart: unless-stopped
+
+volumes:
+  db-data:
+  ldap-data:
+  ldap-config:
