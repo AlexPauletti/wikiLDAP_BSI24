@@ -1,0 +1,528 @@
+dn: dc=pmbc,dc=local
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: Prefeitura Teste
+dc: pmbc
+structuralObjectClass: organization
+entryUUID: c5473f04-6441-1041-8769-3317d558c60d
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261024215820Z
+entryCSN: 20261024215820.662482Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261024215820Z
+
+dn: ou=PMBC - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+ou: PMBC - Prefeitura Municipal de Balneario Camboriu
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: f904923e-6a67-1041-815a-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101174655Z
+entryCSN: 20261101174655.319470Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101174655Z
+
+dn: ou=SEARP - Secretaria Municipal de Articulacao Politica e Relacoes Insti
+ tucionais,ou=PMBC - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc=l
+ ocal
+ou: SEARP - Secretaria Municipal de Articulacao Politica e Relacoes Instituc
+ ionais
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 0dd095d2-6a68-1041-815b-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101174730Z
+entryCSN: 20261101174730.210929Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101174730Z
+
+dn: ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Prefeitura Municip
+ al de Balneario Camboriu,dc=pmbc,dc=local
+ou: SEDUC - Secretaria Municipal de Educacao
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 195a0122-6a68-1041-815c-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101174749Z
+entryCSN: 20261101174749.566456Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101174749Z
+
+dn: ou=SEGOV - Secretaria Municipal de Governo Inovacao e Orcamento,ou=PMBC 
+ - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+ou: SEGOV - Secretaria Municipal de Governo Inovacao e Orcamento
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 2a2849b4-6a68-1041-815d-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101174817Z
+entryCSN: 20261101174817.761902Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101174817Z
+
+dn: ou=CEM - Centro Educacional Municipal,ou=SEDUC - Secretaria Municipal de
+  Educacao,ou=PMBC - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc=l
+ ocal
+ou: CEM - Centro Educacional Municipal
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 44a16fb4-6a68-1041-815e-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101174902Z
+entryCSN: 20261101174902.176622Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101174902Z
+
+dn: ou=NEI - Nucleo de Educacao da Infancia,ou=SEDUC - Secretaria Municipal 
+ de Educacao,ou=PMBC - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc
+ =local
+ou: NEI - Nucleo de Educacao da Infancia
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 5b630abe-6a68-1041-815f-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101174940Z
+entryCSN: 20261101174940.355311Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101174940Z
+
+dn: ou=DECC - Departamento da Casa dos Conselhos,ou=SEARP - Secretaria Munic
+ ipal de Articulacao Politica e Relacoes Institucionais,ou=PMBC - Prefeitura
+  Municipal de Balneario Camboriu,dc=pmbc,dc=local
+ou: DECC - Departamento da Casa dos Conselhos
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 6b07b30c-6a68-1041-8160-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175006Z
+entryCSN: 20261101175006.600233Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175006Z
+
+dn: ou=DITI - Divisao de Tecnologia da Informacao,ou=SEGOV - Secretaria Muni
+ cipal de Governo Inovacao e Orcamento,ou=PMBC - Prefeitura Municipal de Bal
+ neario Camboriu,dc=pmbc,dc=local
+ou: DITI - Divisao de Tecnologia da Informacao
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 771ae060-6a68-1041-8161-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175026Z
+entryCSN: 20261101175026.858571Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175026Z
+
+dn: ou=PAL - Professor Antonio Lucio,ou=CEM - Centro Educacional Municipal,o
+ u=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Prefeitura Municipal d
+ e Balneario Camboriu,dc=pmbc,dc=local
+ou: PAL - Professor Antonio Lucio
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 8c1a6bac-6a68-1041-8162-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175102Z
+entryCSN: 20261101175102.087736Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175102Z
+
+dn: ou=PIO - Pioneiros,ou=NEI - Nucleo de Educacao da Infancia,ou=SEDUC - Se
+ cretaria Municipal de Educacao,ou=PMBC - Prefeitura Municipal de Balneario 
+ Camboriu,dc=pmbc,dc=local
+ou: PIO - Pioneiros
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: b32f6d00-6a68-1041-8163-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175207Z
+entryCSN: 20261101175207.656540Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175207Z
+
+dn: uid=decc.admin,ou=DECC - Departamento da Casa dos Conselhos,ou=SEARP - S
+ ecretaria Municipal de Articulacao Politica e Relacoes Institucionais,ou=PM
+ BC - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: decc.admin
+cn: Diretor DECC
+givenName: Diretor
+sn: DECC
+mail: decc.admin@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa6d6b8a-6a69-1041-816f-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.460060Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=decc.leitor,ou=DECC - Departamento da Casa dos Conselhos,ou=SEARP - 
+ Secretaria Municipal de Articulacao Politica e Relacoes Institucionais,ou=P
+ MBC - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: decc.leitor
+cn: Estagiario DECC
+givenName: Estagiario
+sn: DECC
+mail: decc.leitor@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa6ee2d0-6a69-1041-8170-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.469666Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=pal.admin,ou=PAL - Professor Antonio Lucio,ou=CEM - Centro Educacion
+ al Municipal,ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Prefeitu
+ ra Municipal de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: pal.admin
+cn: Diretor PAL
+givenName: Diretor
+sn: PAL
+mail: pal.admin@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa704e68-6a69-1041-8171-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.478975Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=pal.leitor,ou=PAL - Professor Antonio Lucio,ou=CEM - Centro Educacio
+ nal Municipal,ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Prefeit
+ ura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: pal.leitor
+cn: Estagiario PAL
+givenName: Estagiario
+sn: PAL
+mail: pal.leitor@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa71a056-6a69-1041-8172-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.487625Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=pio.admin,ou=PIO - Pioneiros,ou=NEI - Nucleo de Educacao da Infancia
+ ,ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Prefeitura Municipal
+  de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: pio.admin
+cn: Diretor PIO
+givenName: Diretor
+sn: PIO
+mail: pio.admin@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa72ffe6-6a69-1041-8173-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.496625Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=pio.leitor,ou=PIO - Pioneiros,ou=NEI - Nucleo de Educacao da Infanci
+ a,ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Prefeitura Municipa
+ l de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: pio.leitor
+cn: Estagiario PIO
+givenName: Estagiario
+sn: PIO
+mail: pio.leitor@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa740738-6a69-1041-8174-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.503366Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=diti.admin,ou=DITI - Divisao de Tecnologia da Informacao,ou=SEGOV - 
+ Secretaria Municipal de Governo Inovacao e Orcamento,ou=PMBC - Prefeitura M
+ unicipal de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: diti.admin
+cn: Diretor DITI
+givenName: Diretor
+sn: DITI
+mail: diti.admin@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa74f8dc-6a69-1041-8175-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.509553Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=diti.leitor,ou=DITI - Divisao de Tecnologia da Informacao,ou=SEGOV -
+  Secretaria Municipal de Governo Inovacao e Orcamento,ou=PMBC - Prefeitura 
+ Municipal de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: diti.leitor
+cn: Estagiario DITI
+givenName: Estagiario
+sn: DITI
+mail: diti.leitor@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa75f750-6a69-1041-8176-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.516067Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=sem.grupo,ou=PMBC - Prefeitura Municipal de Balneario Camboriu,dc=pm
+ bc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: sem.grupo
+cn: Usuario SemGrupo
+givenName: Usuario
+sn: SemGrupo
+mail: sem.grupo@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa76f330-6a69-1041-8177-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.522515Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=multi.setor,ou=PMBC - Prefeitura Municipal de Balneario Camboriu,dc=
+ pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: multi.setor
+cn: Servidor MultiSetor
+givenName: Servidor
+sn: MultiSetor
+mail: multi.setor@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa77ee20-6a69-1041-8178-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.528939Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: uid=svc-wiki,ou=DITI - Divisao de Tecnologia da Informacao,ou=SEGOV - Se
+ cretaria Municipal de Governo Inovacao e Orcamento,ou=PMBC - Prefeitura Mun
+ icipal de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: svc-wiki
+cn: Servico Wiki
+givenName: Servico
+sn: Wiki
+mail: svc-wiki@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: aa794158-6a69-1041-8179-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101175902Z
+entryCSN: 20261101175902.537620Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101175902Z
+
+dn: ou=groups,dc=pmbc,dc=local
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+structuralObjectClass: organizationalUnit
+entryUUID: bd5e81fe-6a71-1041-817a-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.212878Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: cn=decc-admin,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: decc-admin
+member: uid=decc.admin,ou=DECC - Departamento da Casa dos Conselhos,ou=SEARP
+  - Secretaria Municipal de Articulacao Politica e Relacoes Institucionais,o
+ u=PMBC - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: bd5f758c-6a71-1041-817b-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.219113Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: cn=decc-leitor,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: decc-leitor
+member: uid=decc.leitor,ou=DECC - Departamento da Casa dos Conselhos,ou=SEAR
+ P - Secretaria Municipal de Articulacao Politica e Relacoes Institucionais,
+ ou=PMBC - Prefeitura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+member: uid=multi.setor,ou=PMBC - Prefeitura Municipal de Balneario Camboriu
+ ,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: bd609066-6a71-1041-817c-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.226353Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: cn=pal-admin,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: pal-admin
+member: uid=pal.admin,ou=PAL - Professor Antonio Lucio,ou=CEM - Centro Educa
+ cional Municipal,ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Pref
+ eitura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: bd6173a0-6a71-1041-817d-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.232172Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: cn=pal-leitor,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: pal-leitor
+member: uid=pal.leitor,ou=PAL - Professor Antonio Lucio,ou=CEM - Centro Educ
+ acional Municipal,ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Pre
+ feitura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: bd624258-6a71-1041-817e-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.237463Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: cn=pio-admin,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: pio-admin
+member: uid=pio.admin,ou=PIO - Pioneiros,ou=NEI - Nucleo de Educacao da Infa
+ ncia,ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Prefeitura Munic
+ ipal de Balneario Camboriu,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: bd630c7e-6a71-1041-817f-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.242638Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: cn=pio-leitor,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: pio-leitor
+member: uid=pio.leitor,ou=PIO - Pioneiros,ou=NEI - Nucleo de Educacao da Inf
+ ancia,ou=SEDUC - Secretaria Municipal de Educacao,ou=PMBC - Prefeitura Muni
+ cipal de Balneario Camboriu,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: bd63e680-6a71-1041-8180-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.248220Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: cn=diti-admin,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: diti-admin
+member: uid=diti.admin,ou=DITI - Divisao de Tecnologia da Informacao,ou=SEGO
+ V - Secretaria Municipal de Governo Inovacao e Orcamento,ou=PMBC - Prefeitu
+ ra Municipal de Balneario Camboriu,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: bd64e6b6-6a71-1041-8181-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.254778Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: cn=diti-leitor,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: diti-leitor
+member: uid=diti.leitor,ou=DITI - Divisao de Tecnologia da Informacao,ou=SEG
+ OV - Secretaria Municipal de Governo Inovacao e Orcamento,ou=PMBC - Prefeit
+ ura Municipal de Balneario Camboriu,dc=pmbc,dc=local
+member: uid=multi.setor,ou=PMBC - Prefeitura Municipal de Balneario Camboriu
+ ,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: bd6614aa-6a71-1041-8182-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101185650Z
+entryCSN: 20261101185650.262509Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101185650Z
+
+dn: uid=ti.admin,ou=DITI - Divisao de Tecnologia da Informacao,ou=SEGOV - Se
+ cretaria Municipal de Governo Inovacao e Orcamento,ou=PMBC - Prefeitura Mun
+ icipal de Balneario Camboriu,dc=pmbc,dc=local
+objectClass: inetOrgPerson
+objectClass: top
+uid: ti.admin
+cn: Administrador TI
+givenName: Administrador
+sn: TI
+mail: ti.admin@pmbc.local
+userPassword:: VGVzdGVAMTIz
+structuralObjectClass: inetOrgPerson
+entryUUID: d7864f84-6a77-1041-8183-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101194031Z
+entryCSN: 20261101194031.074870Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101194031Z
+
+dn: cn=Administrators,ou=groups,dc=pmbc,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: Administrators
+member: uid=ti.admin,ou=DITI - Divisao de Tecnologia da Informacao,ou=SEGOV 
+ - Secretaria Municipal de Governo Inovacao e Orcamento,ou=PMBC - Prefeitura
+  Municipal de Balneario Camboriu,dc=pmbc,dc=local
+structuralObjectClass: groupOfNames
+entryUUID: d78ce434-6a77-1041-8184-c395b1177a71
+creatorsName: cn=admin,dc=pmbc,dc=local
+createTimestamp: 20261101194031Z
+entryCSN: 20261101194031.117997Z#000000#000#000000
+modifiersName: cn=admin,dc=pmbc,dc=local
+modifyTimestamp: 20261101194031Z
+
