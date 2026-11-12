@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict EUFD6V7BkXm6vb9K7KcOibaedzVctfs6yReyRIdb4JKOA50H27ApBmenbMHzKOC
+\restrict 7S9NK6KJtJRmb0sgWUOrcq7MMhN6wMMSyMeYaYK8fuJHuO8etngi5DZHSad78h8
 
 -- Dumped from database version 15.19
 -- Dumped by pg_dump version 15.19
@@ -1495,8 +1495,8 @@ COPY public.users (id, email, name, "providerId", password, "tfaIsActive", "tfaS
 2	guest@example.com	Guest	\N		f	\N			\N	America/New_York	t	t	t	f	2026-10-24T19:52:26.541Z	2026-10-24T19:52:26.541Z	local	en	markdown	\N		
 5	multi.setor@pmbc.local	Servidor MultiSetor	multi.setor	\N	f	\N				America/New_York	f	t	t	f	2026-11-11T13:38:08.995Z	2026-11-11T13:38:08.995Z	decd4a0b-d6eb-4b30-9094-582389bd3dfd	en	markdown	2026-11-11T13:38:09.020Z		
 6	sem.grupo@pmbc.local	Usuario SemGrupo	sem.grupo	\N	f	\N				America/New_York	f	t	t	f	2026-11-11T13:39:08.500Z	2026-11-11T13:39:08.500Z	decd4a0b-d6eb-4b30-9094-582389bd3dfd	en	markdown	2026-11-11T13:39:08.514Z		
-7	ti.admin@pmbc.local	Administrador TI	ti.admin	\N	f	\N				America/New_York	f	t	t	f	2026-11-11T13:40:04.829Z	2026-11-11T13:40:04.829Z	decd4a0b-d6eb-4b30-9094-582389bd3dfd	en	markdown	2026-11-11T13:40:04.847Z		
-1	alexpauletti10@gmail.com	Administrator	\N	$2a$12$8OxmlwTI4AQkxK0X4M/xk.8A5bwuQLFInRuH86JzuSNyZbk.I7.gW	f	\N			\N	America/New_York	f	t	t	f	2026-10-24T19:52:26.284Z	2026-10-24T19:52:26.284Z	local	en	markdown	2026-11-04T01:33:45.061Z		
+7	ti.admin@pmbc.local	Administrador TI	ti.admin	\N	f	\N				America/New_York	f	t	t	f	2026-11-11T13:40:04.829Z	2026-11-11T13:40:04.829Z	decd4a0b-d6eb-4b30-9094-582389bd3dfd	en	markdown	2026-11-12T13:39:50.446Z		
+1	alexpauletti10@gmail.com	Administrator	\N	$2a$12$IXMhyVx1dlpQl303YZrxueYOemW8WD66k6JEDllNO.MaDcoFuXAe.	f	\N			\N	America/New_York	f	t	t	f	2026-10-24T19:52:26.284Z	2026-11-12T13:40:44.981Z	local	en	markdown	2026-11-12T13:41:04.108Z		
 3	pio.leitor@pmbc.local	Estagiario PIO	pio.leitor	\N	f	\N				America/New_York	f	t	t	f	2026-11-03T23:33:26.897Z	2026-11-04T01:34:45.178Z	decd4a0b-d6eb-4b30-9094-582389bd3dfd	en	markdown	2026-11-11T13:36:47.994Z		
 4	pio.admin@pmbc.local	Diretor PIO	pio.admin	\N	f	\N				America/New_York	f	t	t	f	2026-11-11T13:37:32.900Z	2026-11-11T13:37:32.900Z	decd4a0b-d6eb-4b30-9094-582389bd3dfd	en	markdown	2026-11-11T13:37:32.929Z		
 \.
@@ -2104,5 +2104,5 @@ ALTER TABLE ONLY public.users
 -- PostgreSQL database dump complete
 --
 
-\unrestrict EUFD6V7BkXm6vb9K7KcOibaedzVctfs6yReyRIdb4JKOA50H27ApBmenbMHzKOC
+\unrestrict 7S9NK6KJtJRmb0sgWUOrcq7MMhN6wMMSyMeYaYK8fuJHuO8etngi5DZHSad78h8
 
